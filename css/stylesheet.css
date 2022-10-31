@@ -1,0 +1,175 @@
+body{
+    overflow: hidden;
+}
+#loading{
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-section{
+    background-color: black ;
+}
+/* .row{
+    min-height: 100vh;
+} */
+.height{
+    min-height: 100vh;
+}
+.meals img{
+    border-radius: 5px;
+    
+}
+.meals{
+    padding: 1.5%;
+}
+.layerMeal{
+    position: absolute;
+    top: 120%;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.7);
+     display: none;
+     transition: all 1s;
+    
+}
+.layerMeal p {
+    font-family: inherit;
+    font-size: x-large ;
+    line-height: 1.2;
+    
+}
+
+.meals:hover .layerMeal{ 
+     display: block;
+     top: 3px;
+}
+.logo{
+    width: 55px; 
+}
+.parent-img{
+    
+    height: 45%;
+}
+
+.navbar{
+    display: block;
+}
+
+.nav-options{
+   
+    background-color: black;
+    
+}
+.menu{
+    z-index: 99999;
+}
+.nav-link{
+    color: #f9f6f6 !important;
+    font-weight: 200;
+    font-size: 16px;  
+}
+
+/****************************************************/
+.details{
+    background-color: black;
+    min-height: 100vh;
+}
+.steps h3 ,h2  {
+    font-size: 1.75rem;
+    font-family: 'Segoe UI Light', Tahoma,Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.steps p{
+    font-family: 'Segoe UI Light', Tahoma,Geneva, Verdana, sans-serif;
+}
+
+.ulRecipes li {
+
+list-style-type: none;
+background-color: #d4edda;
+font-family: 'Segoe UI Light', Tahoma,Geneva, Verdana, sans-serif;
+color: #155724;
+border-color:#c3e6cb ;
+}
+.ulTags li{
+    list-style-type: none;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+font-family: 'Segoe UI Light', Tahoma,Geneva, Verdana, sans-serif;
+
+}
+.youtube{
+    background-color: #F70000;
+}
+.source{
+    background-color: #28a745;
+    border-color: #28a745;
+}
+/******************************************************/
+.search input{
+   
+    border-radius: 0;
+    background-color: black !important;
+   border: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    color: white!important;
+   
+}
+/* .search{
+    min-height:  !important;
+} */
+/******************************************/
+
+.layerCategory{
+    position: absolute;
+    top: 100%;
+    
+    border-radius: 5px;
+    background-color: rgba(255,255,255,.7);
+     display: none;
+     transition: all 1s;
+}
+.Category:hover .layerCategory{ 
+    display: block;
+    top: 0px;
+    
+} 
+.font-text h2 p{
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500 !important;
+    color: black;
+}
+
+/*********************************************************************/
+.fa-city{
+    color: #e65a50ab;;
+}
+
+/****************************************************/
+
+.fa-bowl-food{
+    color: #9ee650ab;
+}
+
+/**************************************************/
+.form-control{
+    background-color: black!important;
+    border-radius: 0%;
+    box-shadow: 0 1rem 1rem rgba(255,255,255,.1)!important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+}
